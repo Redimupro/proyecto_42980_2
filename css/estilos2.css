@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+/*INDEX Y LAS DEMAS PAGINAS*/
+
+/*Importo la fuente desde google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+body{
+    height: 100vh;
+    
+}
+
+header{
+    height: 10%;
+    background-color: black;
+}
+.paddingnav{
+    margin: 2px;
+    padding:  2px;
+    
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light .colorblack{
+    background-color: black;
+}
+.colornav{
+    background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link .colorgold{
+    color: gold;
+}
+
+main{
+    height: 70%;
+}
+
+.tamaño{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+}
+.marginspace{
+    margin-top: 5px;
+}
+footer{
+    height: 15%;
+}
+
+@media screen and (max-width: 768px){
+    .lista{
+        flex-direction: column;
+    }
+    .linknav{
+        font-size: 1.2rem;
+    }
+}

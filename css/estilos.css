@@ -1,0 +1,620 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*INDEX Y LAS DEMAS PAGINAS*/
+
+/*Importo la fuente desde google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+.fondo{
+    background-color: rgb(0, 0, 0);
+}
+.fondocreando{
+    position: fixed;
+    scale: 90%;
+    top: -800px;
+    left: -300px;
+    opacity: 30%;
+}
+.logoinicio{
+    position: absolute;
+    left: -40px;
+    top: -20px;
+    scale: 60%;
+}
+/*Botones y texto lo hago por separado*/
+.botoninicio{
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 754px;
+    scale: 150%;
+    z-index: 600;
+    
+}
+.letrainicio{
+    color: black;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.botonconocenos{
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 570px;
+    scale: 150%;
+    z-index: 500;
+}
+.letraconocenos{
+    color: black;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.botongaleria{
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 418px;
+    scale: 150%;
+    z-index: 400;
+}
+.letragaleria{
+    color: black;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.botonpaquetes{
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    scale: 150%;
+    z-index: 300;
+}
+.letrapaquetes{
+    color: black;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.botoncontacto{
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    scale: 150%;
+    z-index: 200;
+}
+.letracontacto{
+    color: black;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+.tituloprincipal{
+    color: gold;
+    position: absolute;
+    top: 150px;
+    left: 680px;
+    font-size: 50px;
+    width: 50%;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+.subtitulo1{
+    color: gold;
+    position: absolute;
+    top: 250px;
+    left: 55px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.imagenconocenos{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    scale: 150%;
+}
+.videoyt1{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    scale: 150%;
+}
+.subtitulo2{
+    color: gold;
+    position: absolute;
+    top: 850px;
+    left: 55px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.imagengaleria{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    scale: 150%;
+}
+.imagenpaquetes{
+    position: absolute;
+    top: 1000px;
+    right: 200px;
+    scale: 150%;
+}
+.subtitulo3{
+    color: gold;
+    position: absolute;
+    top: 850px;
+    right: 524px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.subtitulo4{
+    color: gold;
+    position: absolute;
+    top: 1500px;
+    left: 55px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.imagencontactanos{
+    position: absolute;
+    top: 1650px;
+    left: 200px;
+    scale: 150%;
+}
+.maps1{
+    position: absolute;
+    top: 1650px;
+    right: 200px;
+    scale: 150%;
+}
+.subtitulo5{
+    color: gold;
+    position: absolute;
+    top: 1500px;
+    right: 580px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.facebookfooter{
+    position: absolute;
+    top: 2200px;
+    right: 30px;
+}
+.instagramfooter{
+    position: absolute;
+    top: 2200px;
+    right: 100px;
+}
+.textodescriptivo1{
+    color: gold;
+    background-color: black;
+    position: absolute;
+    top: 2100px;
+    left: 55px;
+    right: 50px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.logoiniciofooter{
+    position: absolute;
+    left: -40px;
+    top: 2150px;
+    scale: 60%;
+    padding-top: 20px;
+}
+.footer{
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.267);
+    border-radius: 20px;
+}
+.botoniniciof{
+    position: absolute;
+    top: 2250px;
+    left: 732px;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    z-index: 200;
+}
+.botonconocenosf{
+    position: absolute;
+    top: 2250px;
+    left: 794px;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    z-index: 190;
+}
+.botongaleriaf{
+    position: absolute;
+    top: 2250px;
+    left: 910px;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    z-index: 180;
+}
+.botonpaquetesf{
+    position: absolute;
+    top: 2250px;
+    left: 992px;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    z-index: 170;
+}
+.botoncontactof{
+    position: absolute;
+    top: 2250px;
+    left: 1094px;    
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    z-index: 160;
+}
+.piedepagina1{
+    color: gold;
+    position: absolute;
+    top: 2300px;
+    left: 750px;
+    padding: 20px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+}
+nav ul li{
+    list-style: none;
+}
+div ul li{
+    list-style: none;
+}
+
+/*CONOCENOS*/
+
+.tituloprincipal2{
+    color: gold;
+    position: absolute;
+    top: 150px;
+    left: 730px;
+    font-size: 50px;
+    width: 50%;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+.subtitulo1_2{
+    color: gold;
+    position: absolute;
+    top: 310px;
+    left: 55px;
+    right: 1000px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.imagengaleria2{
+    position: absolute;
+    top: 1000px;
+    right: 200px;
+    scale: 150%;
+}
+.subtitulo1_2_2{
+    color: gold;
+    position: absolute;
+    top: 850px;
+    right: 620px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*GALERIA*/
+
+.tituloprincipal3{
+    color: gold;
+    position: absolute;
+    top: 150px;
+    left: 870px;
+    font-size: 50px;
+    width: 50%;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+.imagengaleria3{
+    position: absolute;
+    top: 330px;
+    right: 130px;
+    scale: 110%;
+}
+.imagengaleria4{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    scale: 150%;
+}
+.videoyt2{
+    position: absolute;
+    top: 1000px;
+    right: 200px;
+    scale: 150%;
+}
+.imagengaleria5{
+    position: absolute;
+    top: 1650px;
+    left: 200px;
+    scale: 150%;
+}
+
+/*PAQUETES*/
+
+.tituloprincipal4{
+    color: gold;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+.subtitulo1_3{
+    color: gold;
+    position: absolute;
+    top: 260px;
+    left: 55px;
+    right: 60px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.imagengaleria6{
+    position: absolute;
+    top: -550px;
+    left: -538px;
+    scale: 35%;
+}
+.videoyt3{
+    position: absolute;
+    top: 1650px;
+    left: 200px;
+    scale: 150%;
+}
+.subpaquete1{
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    position: absolute;
+    top: 400px;
+    right: 55px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.subpaquete2{
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    position: absolute;
+    top: 550px;
+    right: 55px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.subpaquete3{
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    position: absolute;
+    top: 700px;
+    right: 55px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.subpaquete4{
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    position: absolute;
+    top: 850px;
+    right: 55px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.subpaquete5{
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    position: absolute;
+    top: 1000px;
+    right: 55px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.subpaquete6{
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    position: absolute;
+    top: 1150px;
+    right: 55px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+.subpaquete7{
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    padding: 10px;
+    color: gold;
+    position: absolute;
+    top: 1300px;
+    right: 55px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+/*CONTACTO*/
+
+.tituloprincipal5{
+    color: gold;
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+.subtitulo1{
+    color: gold;
+    position: absolute;
+    top: 250px;
+    left: 55px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.subcontacto1{
+        color: gold;
+        position: absolute;
+        top: 250px;
+        left: 700px;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Quicksand', sans-serif;
+}
+.form1{
+    position: relative;
+    padding: 10px;
+    margin: 50px;
+    top: 300px;
+}
+.formnombre{
+    position: relative;
+    padding: 15px;
+    margin: 15px;
+    scale: 180%;
+    left: 780px;
+}
+.formemail{
+    position: relative;
+    padding: 15px;
+    margin: 15px;
+    scale: 180%;
+    left: 780px;
+    top: 8px;
+}
+.formcomentario{
+    position: relative;
+    padding: px;
+    margin: 15px;
+    top: 36px;
+    scale: 190%;
+    left: 800px;
+}
+.formlimpiar{
+    position: relative;
+    padding: 5px;
+    padding-left: 31.5px;
+    padding-right: 31.5px;
+    margin: 20px;
+    top: 50px;
+    scale: 200%;
+    left: 784.5px;
+}
+.formenviar{
+    position: relative;
+    padding: 5px;
+    padding-left: 34.5px;
+    padding-right: 34.5px;
+    margin: 20px;
+    top: 50px;
+    scale: 200%;
+    left: 784.5px;
+}
+.imagenconocenos2{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    scale: 150%;
+}
+.videoyt4{
+    position: absolute;
+    top: 1000px;
+    right: 200px;
+    scale: 150%;
+}
+.subtitulo6{
+    color: gold;
+    position: absolute;
+    top: 1500px;
+    left: 55px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+.imagengaleria7{
+    position: absolute;
+    top: 1650px;
+    left: 200px;
+    scale: 150%;
+}
